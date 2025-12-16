@@ -15,9 +15,6 @@ pip install -r requirements.txt
 ## Run command 
 python -m uvicorn app.main:app --reload
 
-## View Result 
-Visit [http://127.0.0.1:8000](http://127.0.0.1:8000)
-
 
 ##  Features
 
@@ -25,7 +22,7 @@ Visit [http://127.0.0.1:8000](http://127.0.0.1:8000)
 -  Extract ResNet50 features
 -  Search using FAISS index
 -  Display top 10 visually similar images
--  Save results in `data/source/search_x/` folders
+-  Saves results in `data/source/search_x/` folders
 
 ##  Scripts Usage
 
